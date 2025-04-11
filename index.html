@@ -133,24 +133,24 @@
   }
 
   function RndResult() {
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
 
     document.getElementById("result1").innerHTML = Math.round(num1);
     document.getElementById("result2").innerHTML = Math.round(num2);
   }
 
   function PowResult() {
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
 
     document.getElementById("result1").innerHTML = Math.pow(num1, 2);
     document.getElementById("result2").innerHTML = Math.pow(num2, 2);
   }
 
   function SqrtResult() {
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
 
     document.getElementById("result1").innerHTML = Math.sqrt(num1)
     document.getElementById("result2").innerHTML = Math.sqrt(num2)
@@ -164,8 +164,8 @@
   }
 
   function RndmResult() {
-    var min = parseInt(document.getElementById("num1").value);
-    var max = parseInt(document.getElementById("num2").value);
+    var min = document.getElementById("num1").value;
+    var max = document.getElementById("num2").value;
 
      {
       const rand1 = Math.round(Math.random() * (max - min)) + min;
