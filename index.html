@@ -164,8 +164,8 @@
   }
 
   function RndmResult() {
-    var min = document.getElementById("num1").value;
-    var max = document.getElementById("num2").value;
+    var min = parseInt(document.getElementById("num1").value);
+    var max = parseInt(document.getElementById("num2").value);
 
      {
       const rand1 = Math.round(Math.random() * (max - min)) + min;
